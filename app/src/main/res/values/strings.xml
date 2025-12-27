@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">SD Flasher</string>
+    
+    <!-- Home Screen -->
+    <string name="select_device">Select Target Device</string>
+    <string name="select_image">Select Image File</string>
+    <string name="no_devices">No removable devices found</string>
+    <string name="no_image_selected">No image selected</string>
+    <string name="start_flash">Flash Image</string>
+    <string name="refresh_devices">Refresh Devices</string>
+    
+    <!-- Device Info -->
+    <string name="device_size">Size: %s</string>
+    <string name="device_path">Path: %s</string>
+    <string name="partitions_count">%d partitions</string>
+    
+    <!-- Image Info -->
+    <string name="image_name">Name: %s</string>
+    <string name="image_size">Size: %s</string>
+    <string name="compression_type">Compression: %s</string>
+    
+    <!-- Flash Screen -->
+    <string name="flashing_in_progress">Flashing in progress…</string>
+    <string name="flash_complete">Flash Complete!</string>
+    <string name="flash_failed">Flash Failed</string>
+    <string name="verifying">Verifying…</string>
+    <string name="cancel_flash">Cancel</string>
+    <string name="bytes_written">%1$s / %2$s</string>
+    <string name="speed">%s/s</string>
+    <string name="eta">ETA: %s</string>
+    
+    <!-- Confirmation Dialog -->
+    <string name="confirm_flash_title">Confirm Flash</string>
+    <string name="confirm_flash_message">This will ERASE ALL DATA on %1$s and write %2$s.\n\nThis action cannot be undone.</string>
+    <string name="confirm">Flash Now</string>
+    <string name="cancel">Cancel</string>
+    
+    <!-- Root Status -->
+    <string name="checking_root">Checking root access…</string>
+    <string name="root_granted">Root access granted</string>
+    <string name="root_denied">Root access denied</string>
+    <string name="root_required_title">Root Required</string>
+    <string name="root_required_message">This app requires root access to flash images to block devices. Please ensure your device is rooted and grant root permission.</string>
+    <string name="retry">Retry</string>
+    <string name="exit">Exit</string>
+    
+    <!-- Errors -->
+    <string name="error_device_too_small">Target device is smaller than the image</string>
+    <string name="error_unmount_failed">Failed to unmount device partitions</string>
+    <string name="error_write_failed">Failed to write to device: %s</string>
+    <string name="error_read_image">Failed to read image file: %s</string>
+    <string name="error_verification_failed">Verification failed - data mismatch</string>
+</resources>

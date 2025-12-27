@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- SD Card icon -->
+    <group
+        android:translateX="27"
+        android:translateY="27">
+        
+        <!-- Card body -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M42,6H12L4,14v36c0,2.2 1.8,4 4,4h36c2.2,0 4,-1.8 4,-4V10C48,7.8 46.2,6 42,6z"/>
+        
+        <!-- Notch -->
+        <path
+            android:fillColor="#6750A4"
+            android:pathData="M12,6l-8,8h8V6z"/>
+        
+        <!-- Lines representing data -->
+        <path
+            android:fillColor="#6750A4"
+            android:pathData="M14,22h6v18h-6z"/>
+        <path
+            android:fillColor="#6750A4"
+            android:pathData="M24,22h6v18h-6z"/>
+        <path
+            android:fillColor="#6750A4"
+            android:pathData="M34,22h6v18h-6z"/>
+            
+        <!-- Flash arrow -->
+        <path
+            android:fillColor="#E91E63"
+            android:pathData="M30,44l6,-10h-4l2,-10l-8,12h4z"/>
+    </group>
+</vector>
