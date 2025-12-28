@@ -35,9 +35,11 @@
         </activity>
 
         <!-- Root service for privileged operations -->
+        <!-- Suppress Instantiatable: FlashRootService extends libsu's RootService which extends Service -->
         <service
             android:name=".root.FlashRootService"
-            android:exported="false" />
+            android:exported="false"
+            tools:ignore="Instantiatable" />
 
     </application>
 
