@@ -17,7 +17,7 @@
   <a href="https://github.com/theblazehen/sd_flasher/releases">
     <img src="https://img.shields.io/github/downloads/theblazehen/sd_flasher/total?style=for-the-badge" alt="Downloads">
   </a>
-  <img src="https://img.shields.io/badge/Android-15%2B-green?style=for-the-badge&logo=android" alt="Android 15+">
+  <img src="https://img.shields.io/badge/Android-7.0%2B-green?style=for-the-badge&logo=android" alt="Android 7.0+">
   <img src="https://img.shields.io/badge/Root-Required-red?style=for-the-badge" alt="Root Required">
 </p>
 
@@ -34,7 +34,7 @@
 
 ## Requirements
 
-- **Android 15+** (API 35)
+- **Android 7.0+** (API 24)
 - **Root access** (Magisk, KernelSU, or similar)
 - SD card slot or USB card reader
 
