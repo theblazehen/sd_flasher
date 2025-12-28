@@ -1,0 +1,25 @@
+Flash disk images to SD cards directly from your Android device.
+
+Features:
+* Direct block device writing - Flash images directly to SD cards at maximum speed
+* Compressed image support - Handles .img, .img.gz, .img.xz, and .zip files
+* Real-time progress - Live speed, ETA, and progress tracking
+* Fast writes - 4MB buffer for optimal performance
+* Safety first - Confirmation dialogs and partition warnings
+* Material You - Modern UI with dynamic color support
+
+Requirements:
+* Android 7.0+ (API 24)
+* Root access (Magisk, KernelSU, or similar)
+* SD card slot or USB card reader
+
+Why Root?
+Android's security model prevents apps from writing to raw block devices. Root access is required to access /dev/block/* devices, unmount partitions, and write directly to storage hardware.
+
+Supported Image Formats:
+* Raw Image (.img)
+* GZip Compressed (.img.gz, .gz)
+* XZ Compressed (.img.xz, .xz)
+* ZIP Archive (.zip)
+
+Warning: This app writes directly to block devices. Double-check your target device before flashing!
