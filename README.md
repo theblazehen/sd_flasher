@@ -125,7 +125,7 @@ Contributions are welcome! Please:
 ```
 GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
 
-Copyright (C) 2024
+Copyright (C) 2025
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
