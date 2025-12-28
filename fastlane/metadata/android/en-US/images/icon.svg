@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="512" height="512" viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="108" height="108" fill="#6750A4"/>
+    
+    <!-- Foreground Group translated by 27,27 -->
+    <g transform="translate(27, 27)">
+        <!-- Card body -->
+        <path fill="#FFFFFF" d="M42,6H12L4,14v36c0,2.2 1.8,4 4,4h36c2.2,0 4,-1.8 4,-4V10C48,7.8 46.2,6 42,6z"/>
+        
+        <!-- Notch -->
+        <path fill="#6750A4" d="M12,6l-8,8h8V6z"/>
+        
+        <!-- Lines representing data -->
+        <path fill="#6750A4" d="M14,22h6v18h-6z"/>
+        <path fill="#6750A4" d="M24,22h6v18h-6z"/>
+        <path fill="#6750A4" d="M34,22h6v18h-6z"/>
+            
+        <!-- Flash arrow -->
+        <path fill="#E91E63" d="M30,44l6,-10h-4l2,-10l-8,12h4z"/>
+    </g>
+</svg>
